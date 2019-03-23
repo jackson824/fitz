@@ -21,3 +21,22 @@ The two players in the game will take turns getting a tile from a file and placi
 ****
 ```
 could be placed in any of the following ways (as well as others):
+```
+*....   .....   ....*   .....
+*....   .....   ....*   .....
+*....   ****.   ....*   .....
+*....   .....   ....*   .****
+```
+The first player will indicate their tiles with * and the second player will use #. A tile can not be placed where it will overlap with existing tiles on the board..The game ends when a player can not place their next tile. That player loses. For example, the * player needing to place
+```
+**
+**
+```
+on a board that looks like:
+```
+#####
+.**##
+**..#
+.****
+```
+would lose the game. The tiles must be used in the order they appear in the file. If you run out of tiles, start again at the beginning of the file.
