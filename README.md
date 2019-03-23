@@ -48,7 +48,7 @@ on a board that looks like:
 would lose the game. The tiles must be used in the order they appear in the file. If you run out of tiles, the program starts picking tiles again from the beginning of the file. 
 
 ### Tile file
-Each tile is described as a 5x5 grid in the tilefile, with `!` representing an occupied position and `.` representing an empty position. For example, a tile might look like:
+Each tile is described as a 5x5 grid (unlike the game board, which can be [almost] any size) in the tile file, with `!` representing an occupied position and `.` representing an empty position. For example, a tile might look like:
 ```
 !!!..
 !!...
