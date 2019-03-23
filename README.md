@@ -2,7 +2,7 @@
 A tile based multiplayer console game, programmed in C99. Comes with two automated player so it's alright if you don't have friends!
 
 ## Compile Instruction
-Compile `fitz.c` with gcc. Alternatively, `make` with the provided makefile. 
+Compile `fitz.c` with gcc (remember to use flag `-std=c99`). Alternatively, `make` with the provided makefile. 
 
 ## Usage Instruction
 See the section below for an explanation of how the game works. 
